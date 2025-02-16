@@ -105,9 +105,11 @@ const ChatInterface = () => {
                     : "bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 text-gray-900 dark:text-white"
                 }`}
               >
+
                 <p className="text-sm leading-relaxed whitespace-pre-wrap">
                   {msg.text}
                 </p>
+
               </div>
             </div>
           ))}
