@@ -69,7 +69,7 @@ export default function Chatbot() {
                   msg.sender === "user" ? "bg-blue-500 ml-auto" : "bg-gray-600 mr-auto"
                 }`}
               >
-                <div dangerouslySetInnerHTML={{ __html: msg.text.replace(/\n/g, "<br/>") }} />
+                <div dangerouslySetInnerHTML={{ __html: msg.text }} />
               </div>
             </div>
           ))}

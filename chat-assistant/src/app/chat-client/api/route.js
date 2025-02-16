@@ -1,41 +1,52 @@
 import { NextRequest, NextResponse } from "next/server";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
-import { ChatGroq } from "@langchain/groq";
 import { BufferMemory } from "langchain/memory";
 import { AIMessage } from "@langchain/core/messages";
 import { Pinecone } from "@pinecone-database/pinecone";
 import { HfInference } from "@huggingface/inference";
 
+// Initialize memory
 const memory = new BufferMemory({
   returnMessages: true,
   memoryKey: "history",
 });
 
+// Initialize Hugging Face Inference
 const hf = new HfInference(process.env.HUGGINGFACE_API_KEY);
 
 function createPrompt(cars, history, topic) {
   // Filter out null or empty cars metadata
   const validCars = cars.filter(car => car != null && car !== undefined);
 
-  return `You are a car expert, Answer the user's question based on the following car information: 
-  ${JSON.stringify(validCars)}; 
-  if anything else tell the user that you only provide car details.
-  Maintain a conversation history. \n${history}\nUser Question: ${topic}`;
+  return `
+    You are a knowledgeable car expert. Your job is to answer questions based solely on the following car information: 
+    ${JSON.stringify(validCars)}. 
+
+    Your answers must always be directly related to these cars only. If the user asks anything outside of car-related topics, 
+    politely remind them that you only provide car details and request that they ask questions about cars specifically.
+
+    If the user asks about a specific detail not available in the car information provided, respond by saying: 
+    "Sorry, I don't have that specific data."
+
+    Maintain the conversation history for context. \n${history}\n
+    User Question: ${topic}
+
+    Answer concisely (within 20-30 words). Stay on topic and do not provide information outside the given car details.
+  `;
 }
 
 export async function POST(request) {
   const { text } = await request.json();
 
   // Add the user message to memory
-  memory.chatHistory.addUserMessage(text);
+  memory.chatHistory.addUserMessage({role: 'user', content: text});
 
   // Format the conversation history
   const formattedHistory = memory.chatHistory.messages
     .map(entry => `${entry.role}: ${entry.content}`)
     .join("\n");
 
-  // Get query embedding using Hugging Face's feature extraction
   const queryEmbedding = await hf.featureExtraction({
     model: "sentence-transformers/all-MiniLM-L6-v2",
     inputs: text,
@@ -45,11 +56,11 @@ export async function POST(request) {
   const pinecone = new Pinecone({
     apiKey: process.env.PINECONE_API_KEY,
   });
-  const index = pinecone.Index("cars");
+  const index = pinecone.Index("car2");
 
   const queryResponse = await index.query({
     vector: queryEmbedding,
-    topK: 3, // Retrieve top 3 relevant cars
+    topK: 15, 
     includeMetadata: true,
   });
 
@@ -59,21 +70,20 @@ export async function POST(request) {
   // Create the prompt for the Hugging Face model
   const prompt = createPrompt(relevantCars, formattedHistory, text);
 
-  // Call Hugging Face's text generation model
-  const res = await hf.textGeneration({
-    model: "mistralai/Mixtral-8x7B-Instruct-v0.1", // Use Mixtral model
-    inputs: prompt,  // Make sure 'inputs' is a string containing the prompt
+  // Now, we'll call the Hugging Face model directly
+  const modelResponse = await hf.textGeneration({
+    model: "mistralai/Mixtral-8x7B-Instruct-v0.1", 
+    inputs: prompt,
   });
 
   // Add assistant's response to memory
-  memory.chatHistory.addAIChatMessage(res.generated_text);
-
+  const cleanedResponse = modelResponse.generated_text
+  .replace(prompt, "") // Remove the prompt from the response
+  .trim(); // Remove any leading/trailing whitespace
   // Get only the most recent assistant message
-  const latestAssistantMessage = memory.chatHistory.messages
-    .filter(entry => entry instanceof AIMessage)  // Filters only AI messages
-    .pop(); // Gets the most recent AI message
+  memory.chatHistory.addAIChatMessage({role: 'bot', content: cleanedResponse});
 
-    console.log(queryResponse.matches);
+    // console.log(memory.chatHistory);
   // Return only the latest assistant message content
-  return NextResponse.json({ data: latestAssistantMessage?.content, history: memory.chatHistory.messages });
+  return NextResponse.json({ data: cleanedResponse, history: memory.chatHistory.messages });
 }
