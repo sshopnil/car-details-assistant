@@ -1,6 +1,5 @@
 'use client'
 
-
 import { useState, useEffect } from "react";
 import { MessageCircle, Send, Bot, User, Moon, Sun } from "lucide-react";
 
@@ -14,20 +13,28 @@ const ChatInterface = () => {
 
   useEffect(() => {
     // Check system preference or saved preference on mount
-    const isDark = localStorage.theme === 'dark' || 
+    const isDark = localStorage.getItem('theme') === 'dark' || 
       (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
     
     setDarkMode(isDark);
-    document.documentElement.classList.toggle('dark', isDark);
+    if (isDark) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
   }, []);
 
   const toggleTheme = () => {
     setDarkMode(prev => {
       const newDarkMode = !prev;
       // Update localStorage
-      localStorage.theme = newDarkMode ? 'dark' : 'light';
-      // Toggle class on document element
-      document.documentElement.classList.toggle('dark', newDarkMode);
+      localStorage.setItem('theme', newDarkMode ? 'dark' : 'light');
+      // Update class on document element
+      if (newDarkMode) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
       return newDarkMode;
     });
   };
@@ -52,7 +59,7 @@ const ChatInterface = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 p-4 sm:p-6 md:p-8 transition-colors duration-200">
+    <div className={`min-h-screen ${darkMode ? 'dark' : ''} bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 p-4 sm:p-6 md:p-8 transition-colors duration-200`}>
       <div className="max-w-3xl mx-auto flex flex-col h-[90vh] bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700">
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b border-gray-100 dark:border-gray-700">
