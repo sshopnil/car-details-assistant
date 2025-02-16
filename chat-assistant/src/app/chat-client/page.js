@@ -39,24 +39,60 @@ const ChatInterface = () => {
     });
   };
 
-  const sendMessage = () => {
-    if (!input.trim()) return;
+  // const sendMessage = () => {
+  //   if (!input.trim()) return;
 
+  //   const userMessage = { text: input, sender: "user" };
+  //   setMessages([...messages, userMessage]);
+  //   setInput("");
+  //   setLoading(true);
+
+  //   // Simulated API call
+  //   setTimeout(() => {
+  //     const botResponse = { 
+  //       text: "This is a simulated response. In a real application, this would come from your API.", 
+  //       sender: "assistant" 
+  //     };
+  //     setMessages(prev => [...prev, botResponse]);
+  //     setLoading(false);
+  //   }, 2000);
+  // };
+  const sendMessage = async () => {
+    if (!input.trim()) return;
+  
     const userMessage = { text: input, sender: "user" };
     setMessages([...messages, userMessage]);
     setInput("");
     setLoading(true);
-
-    // Simulated API call
-    setTimeout(() => {
-      const botResponse = { 
-        text: "This is a simulated response. In a real application, this would come from your API.", 
-        sender: "assistant" 
-      };
-      setMessages(prev => [...prev, botResponse]);
+  
+    try {
+      const response = await fetch("/chat-client/api", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text: input }),
+      });
+  
+      const data = await response.json();
+  
+      if (response.ok) {
+        const botResponse = {
+          text: data.data, // API response text
+          sender: "assistant",
+        };
+  
+        setMessages((prev) => [...prev, botResponse]);
+      } else {
+        console.error("API error:", data);
+      }
+    } catch (error) {
+      console.error("Fetch error:", error);
+    } finally {
       setLoading(false);
-    }, 2000);
+    }
   };
+  
 
   return (
     <div className={`min-h-screen ${darkMode ? 'dark' : ''} bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 p-4 sm:p-6 md:p-8 transition-colors duration-200`}>
