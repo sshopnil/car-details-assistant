@@ -1,0 +1,2896 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "carModel": "Model S",
+      "brand": "Tesla",
+      "priceRange": {
+        "min": 89990,
+        "max": 129990,
+        "currency": "USD"
+      },
+      "fuelType": "Electric",
+      "engineSpecs": "Dual Motor All-Wheel Drive",
+      "mileage": {
+        "city": "N/A",
+        "highway": "N/A",
+        "range": 405
+      },
+      "safetyFeatures": [
+        "Autopilot",
+        "Emergency Braking",
+        "360-Degree Cameras",
+        "Forward Collision Warning"
+      ],
+      "technologyFeatures": [
+        "17-inch Touchscreen",
+        "Wireless Charging",
+        "Premium Connectivity",
+        "Gaming Computer"
+      ],
+      "maintenanceCost": {
+        "annual": 300,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 70,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Luxury",
+        "Technology Enthusiasts",
+        "Environmental Conscious"
+      ],
+      "pros": [
+        "Long Range",
+        "High Performance",
+        "Advanced Technology"
+      ],
+      "cons": [
+        "High Initial Cost",
+        "Limited Service Centers",
+        "Build Quality Issues"
+      ],
+      "competitors": [
+        "Porsche Taycan",
+        "Lucid Air",
+        "Mercedes EQS"
+      ],
+      "userReviews": {
+        "averageRating": 4.7,
+        "totalReviews": 1250
+      },
+      "commonIssues": [
+        "Screen Glitches",
+        "Panel Gaps",
+        "Door Handle Malfunctions"
+      ],
+      "bodyType": "Sedan",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "Single-Speed",
+      "horsepowerAndTorque": {
+        "horsepower": 670,
+        "torque": 855
+      },
+      "acceleration": {
+        "zeroToSixty": 3.1,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 155,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 28,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 0,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "4 years/50,000 miles",
+        "battery": "8 years/150,000 miles"
+      },
+      "chargingTime": {
+        "fastCharge": "15-45 minutes",
+        "homeCharging": "8-12 hours"
+      },
+      "batteryRange": {
+        "range": 405,
+        "unit": "miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 17,
+        "features": [
+          "Navigation",
+          "Streaming",
+          "Gaming"
+        ]
+      },
+      "climateControl": "Tri-Zone Automatic",
+      "interiorMaterial": "Vegan Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 5
+      },
+      "insuranceCostEstimate": {
+        "annual": 2500,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 300,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Pearl White",
+        "Solid Black",
+        "Deep Blue Metallic",
+        "Red Multi-Coat"
+      ],
+      "antiTheftFeatures": [
+        "PIN to Drive",
+        "Sentry Mode",
+        "GPS Tracking"
+      ],
+      "securityRating": 9.5,
+      "driverAssistanceSystems": [
+        "Autopilot",
+        "Full Self-Driving Capability",
+        "Autopark"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "360-degree",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Locks",
+        "Airbag Occupant Sensing"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Regenerative",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Vehicle Stability Control",
+          "Traction Control System"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 2,
+      "carModel": "911 GT3",
+      "brand": "Porsche",
+      "priceRange": {
+        "min": 169700,
+        "max": 197700,
+        "currency": "USD"
+      },
+      "fuelType": "Gasoline",
+      "engineSpecs": "4.0L Naturally Aspirated Flat-6",
+      "mileage": {
+        "city": 14,
+        "highway": 18,
+        "combined": 15
+      },
+      "safetyFeatures": [
+        "Porsche Active Safe",
+        "Lane Change Assist",
+        "Adaptive Cruise Control",
+        "Night Vision Assist"
+      ],
+      "technologyFeatures": [
+        "PCM with Navigation",
+        "Sport Chrono Package",
+        "Track Precision App",
+        "Burmester Sound System"
+      ],
+      "maintenanceCost": {
+        "annual": 2500,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 75,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Performance Enthusiasts",
+        "Track Day Warriors",
+        "Luxury Sports Car Lovers"
+      ],
+      "pros": [
+        "Exceptional Performance",
+        "Outstanding Build Quality",
+        "Pure Driving Experience"
+      ],
+      "cons": [
+        "Limited Practicality",
+        "High Running Costs",
+        "Firm Ride"
+      ],
+      "competitors": [
+        "Ferrari F8 Tributo",
+        "McLaren 720S",
+        "Lamborghini Huracán"
+      ],
+      "userReviews": {
+        "averageRating": 4.9,
+        "totalReviews": 850
+      },
+      "commonIssues": [
+        "Clutch Wear",
+        "Oil Consumption",
+        "Brake Wear"
+      ],
+      "bodyType": "Sports Car",
+      "drivetrain": "Rear-Wheel Drive",
+      "transmissionType": "7-Speed PDK",
+      "horsepowerAndTorque": {
+        "horsepower": 502,
+        "torque": 346
+      },
+      "acceleration": {
+        "zeroToSixty": 3.2,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 197,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 4.6,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 2,
+      "towingCapacity": {
+        "weight": 0,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "4 years/50,000 miles",
+        "powertrain": "4 years/50,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 10.9,
+        "features": [
+          "Navigation",
+          "Apple CarPlay",
+          "Track Telemetry"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Leather/Alcantara",
+      "crashTestRatings": {
+        "overall": "Not Rated",
+        "frontal": "Not Rated",
+        "side": "Not Rated",
+        "rollover": "Not Rated"
+      },
+      "insuranceCostEstimate": {
+        "annual": 4500,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 2500,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Global Limited Production",
+      "popularColorOptions": [
+        "GT Silver Metallic",
+        "Guards Red",
+        "Racing Yellow",
+        "Shark Blue"
+      ],
+      "antiTheftFeatures": [
+        "Immobilizer",
+        "Alarm System",
+        "GPS Tracking"
+      ],
+      "securityRating": 9.0,
+      "driverAssistanceSystems": [
+        "Front/Rear Park Assist",
+        "Reversing Camera",
+        "Tire Pressure Monitoring"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "HD Rear View",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "Passenger Airbag Deactivation",
+        "ISOFIX Points"
+      ],
+      "airbagSystem": {
+        "total": 6,
+        "locations": [
+          "Front",
+          "Side",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Carbon Ceramic",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Porsche Stability Management",
+          "Porsche Torque Vectoring Plus"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 3,
+      "carModel": "Civic",
+      "brand": "Honda",
+      "priceRange": {
+        "min": 22550,
+        "max": 30650,
+        "currency": "USD"
+      },
+      "fuelType": "Gasoline",
+      "engineSpecs": "2.0L 4-Cylinder",
+      "mileage": {
+        "city": 31,
+        "highway": 40,
+        "combined": 35
+      },
+      "safetyFeatures": [
+        "Honda Sensing Suite",
+        "Collision Mitigation Braking",
+        "Road Departure Mitigation",
+        "Adaptive Cruise Control"
+      ],
+      "technologyFeatures": [
+        "7-inch Touchscreen",
+        "Apple CarPlay/Android Auto",
+        "Honda Link",
+        "Multi-Angle Rearview Camera"
+      ],
+      "maintenanceCost": {
+        "annual": 600,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 65,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Daily Commuters",
+        "First-Time Buyers",
+        "Fuel Economy Conscious"
+      ],
+      "pros": [
+        "Excellent Fuel Economy",
+        "Reliable",
+        "Strong Resale Value"
+      ],
+      "cons": [
+        "Base Model Features",
+        "Road Noise",
+        "Limited Power in Base Model"
+      ],
+      "competitors": [
+        "Toyota Corolla",
+        "Hyundai Elantra",
+        "Mazda3"
+      ],
+      "userReviews": {
+        "averageRating": 4.5,
+        "totalReviews": 3500
+      },
+      "commonIssues": [
+        "Infotainment Glitches",
+        "AC Performance",
+        "Minor Interior Rattles"
+      ],
+      "bodyType": "Sedan",
+      "drivetrain": "Front-Wheel Drive",
+      "transmissionType": "CVT",
+      "horsepowerAndTorque": {
+        "horsepower": 158,
+        "torque": 138
+      },
+      "acceleration": {
+        "zeroToSixty": 7.9,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 137,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 14.8,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 0,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "powertrain": "5 years/60,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 7,
+        "features": [
+          "Apple CarPlay",
+          "Android Auto",
+          "Bluetooth"
+        ]
+      },
+      "climateControl": "Single-Zone Automatic",
+      "interiorMaterial": "Cloth",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 5
+      },
+      "insuranceCostEstimate": {
+        "annual": 1200,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 600,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Cosmic Blue Metallic",
+        "Lunar Silver Metallic",
+        "Crystal Black Pearl",
+        "Rallye Red"
+      ],
+      "antiTheftFeatures": [
+        "Immobilizer",
+        "Security System",
+        "Smart Entry"
+      ],
+      "securityRating": 8.5,
+      "driverAssistanceSystems": [
+        "Lane Keeping Assist",
+        "Adaptive Cruise Control",
+        "Road Departure Mitigation"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": false,
+        "camera": "Multi-Angle Rearview",
+        "parkingAssist": false
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Rear Door Safety Locks"
+      ],
+      "airbagSystem": {
+        "total": 10,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "4-Wheel Disc",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Vehicle Stability Assist",
+          "Traction Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": false,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 4,
+      "carModel": "X7",
+      "brand": "BMW",
+      "priceRange": {
+        "min": 77850,
+        "max": 103100,
+        "currency": "USD"
+      },
+      "fuelType": "Gasoline",
+      "engineSpecs": "3.0L TwinPower Turbo inline-6",
+      "mileage": {
+        "city": 21,
+        "highway": 25,
+        "combined": 23
+      },
+      "safetyFeatures": [
+        "Active Protection System",
+        "Active Driving Assistant Professional",
+        "Parking Assistant Professional",
+        "Surround View with 3D View"
+      ],
+      "technologyFeatures": [
+        "12.3-inch Digital Instrument Cluster",
+        "14.9-inch Central Display",
+        "BMW iDrive 8",
+        "Gesture Control"
+      ],
+      "maintenanceCost": {
+        "annual": 1200,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 55,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Luxury Family Transport",
+        "Executive Travel",
+        "Long-Distance Comfort"
+      ],
+      "pros": [
+        "Luxurious Interior",
+        "Powerful Engine Options",
+        "Advanced Technology"
+      ],
+      "cons": [
+        "High Price Tag",
+        "Fuel Economy",
+        "Complex Technology Interface"
+      ],
+      "competitors": [
+        "Mercedes-Benz GLS",
+        "Audi Q7",
+        "Land Rover Range Rover"
+      ],
+      "userReviews": {
+        "averageRating": 4.6,
+        "totalReviews": 950
+      },
+      "commonIssues": [
+        "Software Glitches",
+        "Air Suspension Problems",
+        "Electrical Issues"
+      ],
+      "bodyType": "SUV",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "8-Speed Automatic",
+      "horsepowerAndTorque": {
+        "horsepower": 375,
+        "torque": 398
+      },
+      "acceleration": {
+        "zeroToSixty": 5.8,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 130,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 90.4,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 7,
+      "towingCapacity": {
+        "weight": 7500,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "4 years/50,000 miles",
+        "powertrain": "4 years/50,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 14.9,
+        "features": [
+          "Navigation",
+          "Wireless Apple CarPlay/Android Auto",
+          "Harman Kardon Surround Sound"
+        ]
+      },
+      "climateControl": "4-Zone Automatic",
+      "interiorMaterial": "SensaTec/Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 4
+      },
+      "insuranceCostEstimate": {
+        "annual": 2800,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 1200,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Alpine White",
+        "Carbon Black Metallic",
+        "Mineral White Metallic",
+        "Manhattan Green Metallic"
+      ],
+      "antiTheftFeatures": [
+        "Anti-theft Alarm System",
+        "Interior Motion Sensor",
+        "Remote Monitoring"
+      ],
+      "securityRating": 9.2,
+      "driverAssistanceSystems": [
+        "Active Cruise Control",
+        "Lane Departure Warning",
+        "Blind Spot Detection"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "Surround View",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Power Window Lockout"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "4-Wheel Ventilated Disc",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Dynamic Stability Control",
+          "Dynamic Traction Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 5,
+      "carModel": "Model Y",
+      "brand": "Tesla",
+      "priceRange": {
+        "min": 43990,
+        "max": 53990,
+        "currency": "USD"
+      },
+      "fuelType": "Electric",
+      "engineSpecs": "Dual Motor All-Wheel Drive",
+      "mileage": {
+        "city": "N/A",
+        "highway": "N/A",
+        "range": 330
+      },
+      "safetyFeatures": [
+        "Autopilot",
+        "Forward Collision Warning",
+        "Automatic Emergency Braking",
+        "Side Collision Warning"
+      ],
+      "technologyFeatures": [
+        "15-inch Touchscreen",
+        "Over-the-air Updates",
+        "Mobile App Control",
+        "Premium Audio System"
+      ],
+      "maintenanceCost": {
+        "annual": 250,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 65,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Tech-Savvy Families",
+        "Environmentally Conscious",
+        "Urban Commuters"
+      ],
+      "pros": [
+        "Long Range",
+        "Quick Acceleration",
+        "Spacious Interior"
+      ],
+      "cons": [
+        "Build Quality Inconsistency",
+        "Limited Service Centers",
+        "Firm Ride"
+      ],
+      "competitors": [
+        "Ford Mustang Mach-E",
+        "Volkswagen ID.4",
+        "Hyundai IONIQ 5"
+      ],
+      "userReviews": {
+        "averageRating": 4.4,
+        "totalReviews": 2800
+      },
+      "commonIssues": [
+        "Panel Gaps",
+        "Paint Quality",
+        "Suspension Noise"
+      ],
+      "bodyType": "Crossover SUV",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "Single-Speed",
+      "horsepowerAndTorque": {
+        "horsepower": 384,
+        "torque": 376
+      },
+      "acceleration": {
+        "zeroToSixty": 4.8,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 135,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 76.2,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 3500,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "4 years/50,000 miles",
+        "battery": "8 years/120,000 miles"
+      },
+      "chargingTime": {
+        "fastCharge": "15-45 minutes",
+        "homeCharging": "6-10 hours"
+      },
+      "batteryRange": {
+        "range": 330,
+        "unit": "miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 15,
+        "features": [
+          "Navigation",
+          "Streaming Services",
+          "Games"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Vegan Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 5
+      },
+      "insuranceCostEstimate": {
+        "annual": 1800,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 250,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Pearl White Multi-Coat",
+        "Solid Black",
+        "Deep Blue Metallic",
+        "Red Multi-Coat"
+      ],
+      "antiTheftFeatures": [
+        "PIN to Drive",
+        "Sentry Mode",
+        "GPS Tracking"
+      ],
+      "securityRating": 9.0,
+      "driverAssistanceSystems": [
+        "Autopilot",
+        "Full Self-Driving Capability (Optional)",
+        "Autopark"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "360-degree",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Protection Locks",
+        "Rear Door Safety Locks"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Regenerative",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Traction Control",
+          "Vehicle Stability Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 6,
+      "carModel": "M5 Competition",
+      "brand": "BMW",
+      "priceRange": {
+        "min": 108900,
+        "max": 138900,
+        "currency": "USD"
+      },
+      "fuelType": "Gasoline",
+      "engineSpecs": "4.4L Twin-Turbo V8",
+      "mileage": {
+        "city": 15,
+        "highway": 21,
+        "combined": 17
+      },
+      "safetyFeatures": [
+        "Active Driving Assistant Professional",
+        "Night Vision with Pedestrian Detection",
+        "Active Protection System",
+        "Parking Assistant Plus"
+      ],
+      "technologyFeatures": [
+        "12.3-inch Digital Instrument Cluster",
+        "14.9-inch Central Display",
+        "Head-Up Display",
+        "Gesture Control"
+      ],
+      "maintenanceCost": {
+        "annual": 1500,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 58,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Performance Enthusiasts",
+        "Luxury Sedan Buyers",
+        "Technology Lovers"
+      ],
+      "pros": [
+        "Incredible Performance",
+        "Luxury Interior",
+        "Daily Usability"
+      ],
+      "cons": [
+        "High Fuel Consumption",
+        "Expensive Maintenance",
+        "Complex Technology"
+      ],
+      "competitors": [
+        "Mercedes-AMG E 63",
+        "Audi RS7",
+        "Porsche Panamera Turbo"
+      ],
+      "userReviews": {
+        "averageRating": 4.8,
+        "totalReviews": 750
+      },
+      "commonIssues": [
+        "High Oil Consumption",
+        "Transmission Software",
+        "Electronic Glitches"
+      ],
+      "bodyType": "Sedan",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "8-Speed Automatic",
+      "horsepowerAndTorque": {
+        "horsepower": 617,
+        "torque": 553
+      },
+      "acceleration": {
+        "zeroToSixty": 3.2,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 190,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 14,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 0,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "4 years/50,000 miles",
+        "powertrain": "4 years/50,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 14.9,
+        "features": [
+          "Navigation Professional",
+          "Wireless Apple CarPlay/Android Auto",
+          "Bowers & Wilkins Diamond Surround Sound"
+        ]
+      },
+      "climateControl": "4-Zone Automatic",
+      "interiorMaterial": "Merino Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 5
+      },
+      "insuranceCostEstimate": {
+        "annual": 3500,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 1500,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popular ColorOptions": [
+        "Frozen Black",
+        "Marina Bay Blue",
+        "Brands Hatch Grey",
+        "Imola Red"
+      ],
+      "antiTheftFeatures": [
+        "BMW Alarm System",
+        "Interior Motion Sensor",
+        "Tilt Sensor"
+      ],
+      "securityRating": 9.3,
+      "driverAssistanceSystems": [
+        "Active Cruise Control",
+        "Lane Keeping Assistant",
+        "Traffic Jam Assistant"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "Surround View 3D",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Power Rear Sunshade"
+      ],
+      "airbagSystem": {
+        "total": 10,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "M Compound Brakes",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "M Dynamic Mode",
+          "Dynamic Stability Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 7,
+      "carModel": "RAV4 Prime",
+      "brand": "Toyota",
+      "priceRange": {
+        "min": 41590,
+        "max": 45590,
+        "currency": "USD"
+      },
+      "fuelType": "Plug-in Hybrid",
+      "engineSpecs": "2.5L 4-Cylinder + Dual Electric Motors",
+      "mileage": {
+        "city": 94,
+        "highway": 97,
+        "combined": 95,
+        "electricRange": 42
+      },
+      "safetyFeatures": [
+        "Toyota Safety Sense 2.0",
+        "Pre-Collision System",
+        "Dynamic Radar Cruise Control",
+        "Lane Tracing Assist"
+      ],
+      "technologyFeatures": [
+        "9-inch Touchscreen",
+        "Digital Rearview Mirror",
+        "Head-Up Display",
+        "JBL Premium Audio"
+      ],
+      "maintenanceCost": {
+        "annual": 450,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 72,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Eco-Conscious Families",
+        "Daily Commuters",
+        "Technology Enthusiasts"
+      ],
+      "pros": [
+        "Excellent Fuel Economy",
+        "Strong Performance",
+        "Advanced Safety Features"
+      ],
+      "cons": [
+        "Limited Availability",
+        "Higher Initial Cost",
+        "Small Fuel Tank"
+      ],
+      "competitors": [
+        "Ford Escape PHEV",
+        "Hyundai Tucson PHEV",
+        "Mitsubishi Outlander PHEV"
+      ],
+      "userReviews": {
+        "averageRating": 4.7,
+        "totalReviews": 1200
+      },
+      "commonIssues": [
+        "Infotainment Lag",
+        "Limited Cargo Space",
+        "Firm Ride"
+      ],
+      "bodyType": "Compact SUV",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "CVT",
+      "horsepowerAndTorque": {
+        "horsepower": 302,
+        "torque": 288
+      },
+      "acceleration": {
+        "zeroToSixty": 5.7,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 120,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 33.5,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 2500,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "powertrain": "5 years/60,000 miles",
+        "hybrid": "10 years/150,000 miles"
+      },
+      "chargingTime": {
+        "fastCharge": "2.5 hours (240V)",
+        "homeCharging": "12 hours (120V)"
+      },
+      "batteryRange": {
+        "range": 42,
+        "unit": "miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 9,
+        "features": [
+          "Navigation",
+          "Apple CarPlay/Android Auto",
+          "Amazon Alexa"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "SofTex",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 4
+      },
+      "insuranceCostEstimate": {
+        "annual": 1400,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 450,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Limited Markets",
+      "popularColorOptions": [
+        "Blueprint",
+        "Magnetic Gray Metallic",
+        "Super White",
+        "Silver Sky Metallic"
+      ],
+      "antiTheftFeatures": [
+        "Smart Key System",
+        "Engine Immobilizer",
+        "Glass Breakage Sensor"
+      ],
+      "securityRating": 8.8,
+      "driverAssistanceSystems": [
+        "Lane Departure Alert",
+        "Road Sign Assist",
+        "Blind Spot Monitor"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "Bird's Eye View",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Rear Door Locks"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Regenerative",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Vehicle Stability Control",
+          "Traction Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 8,
+      "carModel": "Mustang Mach-E",
+      "brand": "Ford",
+      "priceRange": {
+        "min": 42995,
+        "max": 61795,
+        "currency": "USD"
+      },
+      "fuelType": "Electric",
+      "engineSpecs": "Single/Dual Motor AWD",
+      "mileage": {
+        "city": "N/A",
+        "highway": "N/A",
+        "range": 312
+      },
+      "safetyFeatures": [
+        "Ford Co-Pilot360",
+        "Lane Keeping Assist",
+        "Adaptive Cruise Control",
+        "Automatic Emergency Braking"
+      ],
+      "technologyFeatures": [
+        "15.5-inch Touchscreen",
+        "Wireless Apple CarPlay/Android Auto",
+        "FordPass Connect",
+        "B&O Sound System"
+      ],
+      "maintenanceCost": {
+        "annual": 400,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 60,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Tech Enthusiasts",
+        "Electric Car Buyers",
+        "Performance SUV Seekers"
+      ],
+      "pros": [
+        "Spacious Interior",
+        "Long Electric Range",
+        "Advanced Infotainment"
+      ],
+      "cons": [
+        "Touchscreen Glitches",
+        "High Price",
+        "Limited Charging Network"
+      ],
+      "competitors": [
+        "Tesla Model Y",
+        "Volkswagen ID.4",
+        "Hyundai Ioniq 5"
+      ],
+      "userReviews": {
+        "averageRating": 4.5,
+        "totalReviews": 1300
+      },
+      "commonIssues": [
+        "Software Bugs",
+        "Charging Speed Variability",
+        "Panel Fitment Issues"
+      ],
+      "bodyType": "Crossover SUV",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "Single-Speed",
+      "horsepowerAndTorque": {
+        "horsepower": 346,
+        "torque": 428
+      },
+      "acceleration": {
+        "zeroToSixty": 4.8,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 130,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 59.7,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 3300,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "battery": "8 years/100,000 miles"
+      },
+      "chargingTime": {
+        "fastCharge": "10-45 minutes",
+        "homeCharging": "10-12 hours"
+      },
+      "batteryRange": {
+        "range": 312,
+        "unit": "miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 15.5,
+        "features": [
+          "Navigation",
+          "Streaming Services",
+          "Wireless Updates"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Vegan Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 5
+      },
+      "insuranceCostEstimate": {
+        "annual": 1800,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 400,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Star White Metallic",
+        "Shadow Black",
+        "Cyber Orange",
+        "Rapid Red Metallic"
+      ],
+      "antiTheftFeatures": [
+        "FordPass Remote Access",
+        "Alarm System",
+        "GPS Tracking"
+      ],
+      "securityRating": 9.0,
+      "driverAssistanceSystems": [
+        "Adaptive Cruise Control",
+        "Lane Centering Assist",
+        "Traffic Sign Recognition"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "360-degree",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Rear Door Safety Locks",
+        "Power Window Lockout"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Regenerative",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "AdvanceTrac with Roll Stability Control",
+          "Traction Control System"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 8,
+      "carModel": "Mustang Mach-E",
+      "brand": "Ford",
+      "priceRange": {
+        "min": 42995,
+        "max": 61795,
+        "currency": "USD"
+      },
+      "fuelType": "Electric",
+      "engineSpecs": "Single/Dual Motor AWD",
+      "mileage": {
+        "city": "N/A",
+        "highway": "N/A",
+        "range": 312
+      },
+      "safetyFeatures": [
+        "Ford Co-Pilot360",
+        "Lane Keeping Assist",
+        "Adaptive Cruise Control",
+        "Automatic Emergency Braking"
+      ],
+      "technologyFeatures": [
+        "15.5-inch Touchscreen",
+        "Wireless Apple CarPlay/Android Auto",
+        "FordPass Connect",
+        "B&O Sound System"
+      ],
+      "maintenanceCost": {
+        "annual": 400,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 60,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Tech Enthusiasts",
+        "Electric Car Buyers",
+        "Performance SUV Seekers"
+      ],
+      "pros": [
+        "Spacious Interior",
+        "Long Electric Range",
+        "Advanced Infotainment"
+      ],
+      "cons": [
+        "Touchscreen Glitches",
+        "High Price",
+        "Limited Charging Network"
+      ],
+      "competitors": [
+        "Tesla Model Y",
+        "Volkswagen ID.4",
+        "Hyundai Ioniq 5"
+      ],
+      "userReviews": {
+        "averageRating": 4.5,
+        "totalReviews": 1300
+      },
+      "commonIssues": [
+        "Software Bugs",
+        "Charging Speed Variability",
+        "Panel Fitment Issues"
+      ],
+      "bodyType": "Crossover SUV",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "Single-Speed",
+      "horsepowerAndTorque": {
+        "horsepower": 346,
+        "torque": 428
+      },
+      "acceleration": {
+        "zeroToSixty": 4.8,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 130,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 59.7,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 3300,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "battery": "8 years/100,000 miles"
+      },
+      "chargingTime": {
+        "fastCharge": "10-45 minutes",
+        "homeCharging": "10-12 hours"
+      },
+      "batteryRange": {
+        "range": 312,
+        "unit": "miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 15.5,
+        "features": [
+          "Navigation",
+          "Streaming Services",
+          "Wireless Updates"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Vegan Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 5
+      },
+      "insuranceCostEstimate": {
+        "annual": 1800,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 400,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Star White Metallic",
+        "Shadow Black",
+        "Cyber Orange",
+        "Rapid Red Metallic"
+      ],
+      "antiTheftFeatures": [
+        "FordPass Remote Access",
+        "Alarm System",
+        "GPS Tracking"
+      ],
+      "securityRating": 9.0,
+      "driverAssistanceSystems": [
+        "Adaptive Cruise Control",
+        "Lane Centering Assist",
+        "Traffic Sign Recognition"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "360-degree",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Rear Door Safety Locks",
+        "Power Window Lockout"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Regenerative",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "AdvanceTrac with Roll Stability Control",
+          "Traction Control System"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 9,
+      "carModel": "Corolla Hybrid",
+      "brand": "Toyota",
+      "priceRange": {
+        "min": 23600,
+        "max": 26900,
+        "currency": "USD"
+      },
+      "fuelType": "Hybrid",
+      "engineSpecs": "1.8L 4-Cylinder + Electric Motor",
+      "mileage": {
+        "city": 53,
+        "highway": 46,
+        "combined": 50
+      },
+      "safetyFeatures": [
+        "Toyota Safety Sense 3.0",
+        "Pre-Collision System",
+        "Lane Departure Alert",
+        "Dynamic Radar Cruise Control"
+      ],
+      "technologyFeatures": [
+        "8-inch Touchscreen",
+        "Wireless Apple CarPlay/Android Auto",
+        "Amazon Alexa",
+        "Toyota Connected Services"
+      ],
+      "maintenanceCost": {
+        "annual": 350,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 70,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Daily Commuters",
+        "Fuel Efficiency Seekers",
+        "First-Time Car Buyers"
+      ],
+      "pros": [
+        "Excellent Fuel Economy",
+        "High Reliability",
+        "Affordable Maintenance"
+      ],
+      "cons": [
+        "Modest Power Output",
+        "Basic Interior Materials",
+        "Limited Cargo Space"
+      ],
+      "competitors": [
+        "Honda Insight",
+        "Hyundai Elantra Hybrid",
+        "Kia Niro Hybrid"
+      ],
+      "userReviews": {
+        "averageRating": 4.6,
+        "totalReviews": 2100
+      },
+      "commonIssues": [
+        "Infotainment Lag",
+        "Road Noise",
+        "Limited Rear Seat Space"
+      ],
+      "bodyType": "Sedan",
+      "drivetrain": "Front-Wheel Drive",
+      "transmissionType": "eCVT",
+      "horsepowerAndTorque": {
+        "horsepower": 134,
+        "torque": 156
+      },
+      "acceleration": {
+        "zeroToSixty": 9.1,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 112,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 13.1,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 0,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "powertrain": "5 years/60,000 miles",
+        "hybrid": "8 years/100,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 8,
+        "features": [
+          "Navigation",
+          "Bluetooth Connectivity",
+          "Voice Control"
+        ]
+      },
+      "climateControl": "Automatic Climate Control",
+      "interiorMaterial": "Fabric/SofTex",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 4
+      },
+      "insuranceCostEstimate": {
+        "annual": 1200,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 350,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Classic Silver Metallic",
+        "Celestite",
+        "Wind Chill Pearl",
+        "Blueprint"
+      ],
+      "antiTheftFeatures": [
+        "Smart Key System",
+        "Engine Immobilizer",
+        "Glass Breakage Sensor"
+      ],
+      "securityRating": 8.7,
+      "driverAssistanceSystems": [
+        "Lane Tracing Assist",
+        "Rear Cross-Traffic Alert",
+        "Blind Spot Monitor"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "Rearview Camera",
+        "parkingAssist": false
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Rear Door Locks"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Regenerative",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Vehicle Stability Control",
+          "Traction Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 10,
+      "carModel": "Model 3",
+      "brand": "Tesla",
+      "priceRange": {
+        "min": 38990,
+        "max": 52990,
+        "currency": "USD"
+      },
+      "fuelType": "Electric",
+      "engineSpecs": "Single/Dual Motor AWD",
+      "mileage": {
+        "city": "N/A",
+        "highway": "N/A",
+        "range": 358
+      },
+      "safetyFeatures": [
+        "Autopilot",
+        "Forward Collision Warning",
+        "Automatic Emergency Braking",
+        "Blind Spot Monitoring"
+      ],
+      "technologyFeatures": [
+        "15-inch Touchscreen",
+        "Over-the-air Updates",
+        "Wireless Phone Charging",
+        "Tesla Mobile App Integration"
+      ],
+      "maintenanceCost": {
+        "annual": 200,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 68,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Technology Enthusiasts",
+        "Eco-Friendly Commuters",
+        "Performance Sedan Seekers"
+      ],
+      "pros": [
+        "Excellent Electric Range",
+        "Minimalist High-Tech Interior",
+        "Fast Acceleration"
+      ],
+      "cons": [
+        "Build Quality Inconsistencies",
+        "Limited Service Centers",
+        "Basic Interior in Base Model"
+      ],
+      "competitors": [
+        "Polestar 2",
+        "BMW i4",
+        "Hyundai Ioniq 6"
+      ],
+      "userReviews": {
+        "averageRating": 4.7,
+        "totalReviews": 5000
+      },
+      "commonIssues": [
+        "Panel Gaps",
+        "Software Glitches",
+        "Phantom Braking"
+      ],
+      "bodyType": "Sedan",
+      "drivetrain": "Rear-Wheel Drive / All-Wheel Drive",
+      "transmissionType": "Single-Speed",
+      "horsepowerAndTorque": {
+        "horsepower": 283,
+        "torque": 307
+      },
+      "acceleration": {
+        "zeroToSixty": 4.2,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 145,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 23,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 2000,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "4 years/50,000 miles",
+        "battery": "8 years/120,000 miles"
+      },
+      "chargingTime": {
+        "fastCharge": "15-30 minutes",
+        "homeCharging": "6-10 hours"
+      },
+      "batteryRange": {
+        "range": 358,
+        "unit": "miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 15,
+        "features": [
+          "Navigation",
+          "Streaming Services",
+          "Gaming"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Vegan Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 5
+      },
+      "insuranceCostEstimate": {
+        "annual": 1800,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 200,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Pearl White Multi-Coat",
+        "Solid Black",
+        "Deep Blue Metallic",
+        "Red Multi-Coat"
+      ],
+      "antiTheftFeatures": [
+        "Sentry Mode",
+        "PIN to Drive",
+        "GPS Tracking"
+      ],
+      "securityRating": 9.2,
+      "driverAssistanceSystems": [
+        "Autopilot",
+        "Full Self-Driving Capability (Optional)",
+        "Automatic Lane Change"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "360-degree",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Door Locks",
+        "Rear Door Safety Locks"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Regenerative",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Vehicle Stability Control",
+          "Traction Control System"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 11,
+      "carModel": "Mustang Mach-E",
+      "brand": "Ford",
+      "priceRange": {
+        "min": 43995,
+        "max": 69895,
+        "currency": "USD"
+      },
+      "fuelType": "Electric",
+      "engineSpecs": "Dual Motor All-Wheel Drive",
+      "mileage": {
+        "city": "N/A",
+        "highway": "N/A",
+        "range": 312
+      },
+      "safetyFeatures": [
+        "Ford Co-Pilot360",
+        "Automatic Emergency Braking",
+        "Blind Spot Monitoring",
+        "Adaptive Cruise Control"
+      ],
+      "technologyFeatures": [
+        "15.5-inch Touchscreen",
+        "Over-the-Air Updates",
+        "Wireless Apple CarPlay/Android Auto",
+        "FordPass Connect"
+      ],
+      "maintenanceCost": {
+        "annual": 400,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 68,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Tech Enthusiasts",
+        "EV Buyers",
+        "Performance Seekers"
+      ],
+      "pros": [
+        "Stylish Design",
+        "Good Range",
+        "Modern Technology"
+      ],
+      "cons": [
+        "High Price for GT Trim",
+        "Limited Fast-Charging Network",
+        "Firm Ride"
+      ],
+      "competitors": [
+        "Tesla Model Y",
+        "Hyundai IONIQ 5",
+        "Volkswagen ID.4"
+      ],
+      "userReviews": {
+        "averageRating": 4.5,
+        "totalReviews": 1900
+      },
+      "commonIssues": [
+        "Software Bugs",
+        "Charge Port Freezing",
+        "Suspension Noise"
+      ],
+      "bodyType": "Crossover SUV",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "Single-Speed",
+      "horsepowerAndTorque": {
+        "horsepower": 480,
+        "torque": 600
+      },
+      "acceleration": {
+        "zeroToSixty": 3.5,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 124,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 59.7,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 3000,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "battery": "8 years/100,000 miles"
+      },
+      "chargingTime": {
+        "fastCharge": "10-45 minutes",
+        "homeCharging": "8-12 hours"
+      },
+      "batteryRange": {
+        "range": 312,
+        "unit": "miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 15.5,
+        "features": [
+          "Navigation",
+          "Streaming",
+          "Voice Commands"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Vegan Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 4
+      },
+      "insuranceCostEstimate": {
+        "annual": 1700,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 400,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Star White",
+        "Grabber Blue",
+        "Shadow Black",
+        "Cyber Orange"
+      ],
+      "antiTheftFeatures": [
+        "Remote Lock",
+        "Sentry Mode",
+        "GPS Tracking"
+      ],
+      "securityRating": 9.0,
+      "driverAssistanceSystems": [
+        "BlueCruise Hands-Free Driving",
+        "Adaptive Cruise Control",
+        "Evasive Steering Assist"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "360-degree",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Rear Door Locks",
+        "Airbag Deactivation"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "Regenerative",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Electronic Stability Control",
+          "Traction Control System"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 12,
+      "carModel": "Camry",
+      "brand": "Toyota",
+      "priceRange": {
+        "min": 26620,
+        "max": 36945,
+        "currency": "USD"
+      },
+      "fuelType": "Gasoline / Hybrid",
+      "engineSpecs": "2.5L 4-Cylinder / 3.5L V6 / Hybrid Option",
+      "mileage": {
+        "city": 28,
+        "highway": 39,
+        "combined": 32
+      },
+      "safetyFeatures": [
+        "Toyota Safety Sense 2.5+",
+        "Pre-Collision System",
+        "Lane Departure Alert",
+        "Blind Spot Monitoring"
+      ],
+      "technologyFeatures": [
+        "9-inch Touchscreen",
+        "Wireless Apple CarPlay/Android Auto",
+        "Amazon Alexa",
+        "JBL Premium Sound System"
+      ],
+      "maintenanceCost": {
+        "annual": 450,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 68,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Daily Commuters",
+        "Family Car Buyers",
+        "Fuel-Efficient Sedan Seekers"
+      ],
+      "pros": [
+        "Spacious Interior",
+        "Excellent Fuel Economy",
+        "Strong Reliability"
+      ],
+      "cons": [
+        "Base Engine Feels Weak",
+        "Mediocre Infotainment System",
+        "No All-Wheel Drive for V6"
+      ],
+      "competitors": [
+        "Honda Accord",
+        "Nissan Altima",
+        "Hyundai Sonata"
+      ],
+      "userReviews": {
+        "averageRating": 4.5,
+        "totalReviews": 3200
+      },
+      "commonIssues": [
+        "Infotainment System Lag",
+        "Noisy CVT in Hybrid Model",
+        "Soft Suspension Handling"
+      ],
+      "bodyType": "Sedan",
+      "drivetrain": "Front-Wheel Drive / All-Wheel Drive (Limited)",
+      "transmissionType": "8-Speed Automatic / eCVT for Hybrid",
+      "horsepowerAndTorque": {
+        "horsepower": 203,
+        "torque": 184
+      },
+      "acceleration": {
+        "zeroToSixty": 7.5,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 135,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 15.1,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 1000,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "powertrain": "5 years/60,000 miles",
+        "hybrid": "8 years/100,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 9,
+        "features": [
+          "Navigation",
+          "Bluetooth Connectivity",
+          "Voice Commands"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Fabric / SofTex / Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 4
+      },
+      "insuranceCostEstimate": {
+        "annual": 1350,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 450,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Super White",
+        "Celestial Silver Metallic",
+        "Midnight Black Metallic",
+        "Ruby Flare Pearl"
+      ],
+      "antiTheftFeatures": [
+        "Smart Key System",
+        "Engine Immobilizer",
+        "Glass Breakage Sensor"
+      ],
+      "securityRating": 8.6,
+      "driverAssistanceSystems": [
+        "Adaptive Cruise Control",
+        "Lane Tracing Assist",
+        "Rear Cross-Traffic Alert"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "Rearview Camera",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Rear Door Safety Locks"
+      ],
+      "airbagSystem": {
+        "total": 10,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "4-Wheel Disc",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Vehicle Stability Control",
+          "Traction Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 13,
+      "carModel": "A4",
+      "brand": "Audi",
+      "priceRange": {
+        "min": 41800,
+        "max": 52700,
+        "currency": "USD"
+      },
+      "fuelType": "Gasoline",
+      "engineSpecs": "2.0L Turbocharged 4-Cylinder",
+      "mileage": {
+        "city": 24,
+        "highway": 33,
+        "combined": 27
+      },
+      "safetyFeatures": [
+        "Audi Pre Sense City",
+        "Lane Departure Warning",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitoring"
+      ],
+      "technologyFeatures": [
+        "10.1-inch MMI Touchscreen",
+        "Wireless Apple CarPlay/Android Auto",
+        "Bang & Olufsen Sound System",
+        "Virtual Cockpit"
+      ],
+      "maintenanceCost": {
+        "annual": 600,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 62,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Luxury Sedan Buyers",
+        "Technology Enthusiasts",
+        "Commuters Seeking Comfort"
+      ],
+      "pros": [
+        "Premium Interior Quality",
+        "Smooth Ride and Handling",
+        "Advanced Infotainment System"
+      ],
+      "cons": [
+        "Higher Maintenance Costs",
+        "Limited Cargo Space",
+        "Less Engaging Base Engine"
+      ],
+      "competitors": [
+        "BMW 3 Series",
+        "Mercedes-Benz C-Class",
+        "Lexus IS"
+      ],
+      "userReviews": {
+        "averageRating": 4.6,
+        "totalReviews": 2200
+      },
+      "commonIssues": [
+        "MMI System Glitches",
+        "Carbon Buildup in Engine",
+        "Sunroof Rattle"
+      ],
+      "bodyType": "Sedan",
+      "drivetrain": "All-Wheel Drive (Quattro)",
+      "transmissionType": "7-Speed Dual-Clutch Automatic",
+      "horsepowerAndTorque": {
+        "horsepower": 201,
+        "torque": 236
+      },
+      "acceleration": {
+        "zeroToSixty": 6.3,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 130,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 12,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 2000,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "4 years/50,000 miles",
+        "powertrain": "4 years/50,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 10.1,
+        "features": [
+          "Navigation",
+          "Wireless Connectivity",
+          "Voice Control"
+        ]
+      },
+      "climateControl": "Tri-Zone Automatic",
+      "interiorMaterial": "Leather",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 4
+      },
+      "insuranceCostEstimate": {
+        "annual": 1800,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 600,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Glacier White Metallic",
+        "Mythos Black Metallic",
+        "Navarra Blue Metallic",
+        "Florett Silver Metallic"
+      ],
+      "antiTheftFeatures": [
+        "Anti-Theft Alarm System",
+        "Remote Keyless Entry",
+        "GPS Tracking"
+      ],
+      "securityRating": 9.1,
+      "driverAssistanceSystems": [
+        "Lane Keeping Assist",
+        "Traffic Jam Assist",
+        "Park Assist"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "Rearview Camera",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Power Rear Door Locks"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "4-Wheel Disc",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Electronic Stability Control",
+          "Quattro All-Wheel Drive"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 15,
+      "carModel": "CX-5",
+      "brand": "Mazda",
+      "priceRange": {
+        "min": 29125,
+        "max": 40475,
+        "currency": "USD"
+      },
+      "fuelType": "Gasoline",
+      "engineSpecs": "2.5L 4-Cylinder / Turbocharged Option",
+      "mileage": {
+        "city": 24,
+        "highway": 30,
+        "combined": 26
+      },
+      "safetyFeatures": [
+        "Mazda i-Activsense",
+        "Lane Departure Warning",
+        "Adaptive Cruise Control",
+        "Blind Spot Monitoring"
+      ],
+      "technologyFeatures": [
+        "10.25-inch Touchscreen",
+        "Wireless Apple CarPlay/Android Auto",
+        "Bose Premium Sound System",
+        "Heads-Up Display"
+      ],
+      "maintenanceCost": {
+        "annual": 400,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 65,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Small Families",
+        "Commuters Wanting Comfort",
+        "SUV Buyers on a Budget"
+      ],
+      "pros": [
+        "Premium Interior Quality",
+        "Sporty Handling",
+        "Standard All-Wheel Drive"
+      ],
+      "cons": [
+        "Less Cargo Space Than Competitors",
+        "Base Engine Feels Underpowered",
+        "No Hybrid Option"
+      ],
+      "competitors": [
+        "Honda CR-V",
+        "Toyota RAV4",
+        "Hyundai Tucson"
+      ],
+      "userReviews": {
+        "averageRating": 4.7,
+        "totalReviews": 2800
+      },
+      "commonIssues": [
+        "Infotainment System Lag",
+        "Road Noise at High Speeds",
+        "Firm Ride on Some Trims"
+      ],
+      "bodyType": "Compact SUV",
+      "drivetrain": "All-Wheel Drive",
+      "transmissionType": "6-Speed Automatic",
+      "horsepowerAndTorque": {
+        "horsepower": 187,
+        "torque": 186
+      },
+      "acceleration": {
+        "zeroToSixty": 8.7,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 130,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 30.9,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 2000,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "powertrain": "5 years/60,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 10.25,
+        "features": [
+          "Navigation",
+          "Bluetooth Connectivity",
+          "Voice Commands"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Leather / Synthetic Leather / Cloth",
+      "crashTestRatings": {
+        "overall": 5,
+        "frontal": 5,
+        "side": 5,
+        "rollover": 4
+      },
+      "insuranceCostEstimate": {
+        "annual": 1400,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 400,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "Worldwide",
+      "popularColorOptions": [
+        "Soul Red Crystal Metallic",
+        "Machine Gray Metallic",
+        "Deep Crystal Blue Mica",
+        "Snowflake White Pearl"
+      ],
+      "antiTheftFeatures": [
+        "Smart Key System",
+        "Engine Immobilizer",
+        "Alarm System"
+      ],
+      "securityRating": 8.9,
+      "driverAssistanceSystems": [
+        "Lane Keeping Assist",
+        "Rear Cross-Traffic Alert",
+        "Traffic Sign Recognition"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "Rearview Camera",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Rear Door Safety Locks"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "4-Wheel Disc",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "G-Vectoring Control",
+          "Dynamic Stability Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    },
+    {
+      "id": 14,
+      "carModel": "Cherokee",
+      "brand": "Jeep",
+      "priceRange": {
+        "min": 39390,
+        "max": 41990,
+        "currency": "USD"
+      },
+      "fuelType": "Gasoline",
+      "engineSpecs": "2.4L Inline-4 / 2.0L Turbocharged 4-Cylinder",
+      "mileage": {
+        "city": 21,
+        "highway": 29,
+        "combined": 24
+      },
+      "safetyFeatures": [
+        "Blind Spot Monitoring",
+        "Lane Departure Warning",
+        "Forward Collision Warning",
+        "Adaptive Cruise Control"
+      ],
+      "technologyFeatures": [
+        "8.4-inch Uconnect Touchscreen",
+        "Apple CarPlay/Android Auto",
+        "Alpine Premium Sound System",
+        "Navigation System"
+      ],
+      "maintenanceCost": {
+        "annual": 500,
+        "currency": "USD"
+      },
+      "resaleValue": {
+        "after3Years": 55,
+        "percentageRetained": true
+      },
+      "bestFor": [
+        "Off-Road Enthusiasts",
+        "SUV Buyers Needing AWD",
+        "Adventure Seekers"
+      ],
+      "pros": [
+        "Strong Off-Road Capabilities",
+        "Comfortable Ride",
+        "Feature-Rich Interior"
+      ],
+      "cons": [
+        "Less Cargo Space Than Rivals",
+        "Average Fuel Economy",
+        "Higher Base Price"
+      ],
+      "competitors": [
+        "Toyota RAV4 Adventure",
+        "Ford Bronco Sport",
+        "Subaru Outback"
+      ],
+      "userReviews": {
+        "averageRating": 4.4,
+        "totalReviews": 1600
+      },
+      "commonIssues": [
+        "Transmission Shift Delays",
+        "Touchscreen Responsiveness",
+        "Electrical Glitches"
+      ],
+      "bodyType": "Compact SUV",
+      "drivetrain": "All-Wheel Drive / Four-Wheel Drive",
+      "transmissionType": "9-Speed Automatic",
+      "horsepowerAndTorque": {
+        "horsepower": 270,
+        "torque": 295
+      },
+      "acceleration": {
+        "zeroToSixty": 7.6,
+        "unit": "seconds"
+      },
+      "topSpeed": {
+        "speed": 125,
+        "unit": "mph"
+      },
+      "cargoSpace": {
+        "volume": 25.8,
+        "unit": "cubic-feet"
+      },
+      "seatingCapacity": 5,
+      "towingCapacity": {
+        "weight": 4000,
+        "unit": "lbs"
+      },
+      "warrantyDetails": {
+        "basic": "3 years/36,000 miles",
+        "powertrain": "5 years/60,000 miles"
+      },
+      "infotainmentSystem": {
+        "screenSize": 8.4,
+        "features": [
+          "Navigation",
+          "Voice Commands",
+          "Bluetooth Streaming"
+        ]
+      },
+      "climateControl": "Dual-Zone Automatic",
+      "interiorMaterial": "Leather / Synthetic Leather / Cloth",
+      "crashTestRatings": {
+        "overall": 4,
+        "frontal": 4,
+        "side": 5,
+        "rollover": 4
+      },
+      "insuranceCostEstimate": {
+        "annual": 1700,
+        "currency": "USD"
+      },
+      "annualMaintenanceCostEstimate": {
+        "cost": 500,
+        "currency": "USD"
+      },
+      "availabilityInMarket": "North America, Select Global Markets",
+      "popularColorOptions": [
+        "Bright White",
+        "Granite Crystal Metallic",
+        "Velvet Red Pearl",
+        "Sting-Gray"
+      ],
+      "antiTheftFeatures": [
+        "Engine Immobilizer",
+        "Remote Start Security",
+        "GPS Tracking"
+      ],
+      "securityRating": 8.5,
+      "driverAssistanceSystems": [
+        "ParkSense Rear Park Assist",
+        "Rear Cross Path Detection",
+        "Traffic Sign Recognition"
+      ],
+      "remoteLockingUnlocking": true,
+      "parkingSensorsCamera": {
+        "sensors": true,
+        "camera": "Rearview Camera",
+        "parkingAssist": true
+      },
+      "childSafetyFeatures": [
+        "LATCH System",
+        "Child Safety Locks",
+        "Rear Door Safety Locks"
+      ],
+      "airbagSystem": {
+        "total": 8,
+        "locations": [
+          "Front",
+          "Side",
+          "Curtain",
+          "Knee"
+        ]
+      },
+      "brakingSystem": {
+        "type": "4-Wheel Disc",
+        "abs": true,
+        "ebd": true
+      },
+      "tractionAndStabilityControl": {
+        "tractionControl": true,
+        "stabilityControl": true,
+        "features": [
+          "Selec-Terrain Traction Management",
+          "Electronic Stability Control"
+        ]
+      },
+      "laneKeepAssist": true,
+      "securityAlarm": true,
+      "crashAvoidanceSystem": {
+        "forwardCollision": true,
+        "blindSpot": true,
+        "rearCross": true
+      },
+      "keylessEntry": true
+    }
+          
+    
+  ]
+}
