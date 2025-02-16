@@ -1,107 +1,195 @@
-"use client";
-import { useState } from "react";
-import Image from "next/image";
-import { Suspense } from "react";
+'use client'
 
-export default function Chatbot() {
+import { useState, useEffect } from "react";
+import { MessageCircle, Send, Bot, User, Moon, Sun } from "lucide-react";
+
+const ChatInterface = () => {
   const [messages, setMessages] = useState([
     { text: "Hello! How can I assist you today?", sender: "assistant" },
   ]);
   const [input, setInput] = useState("");
-  const [loading, setLoading] = useState(false); // New loading state
+  const [loading, setLoading] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
-  const sendMessage = () => {
+  useEffect(() => {
+    // Check system preference or saved preference on mount
+    const isDark = localStorage.getItem('theme') === 'dark' || 
+      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    
+    setDarkMode(isDark);
+    if (isDark) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    setDarkMode(prev => {
+      const newDarkMode = !prev;
+      // Update localStorage
+      localStorage.setItem('theme', newDarkMode ? 'dark' : 'light');
+      // Update class on document element
+      if (newDarkMode) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+      return newDarkMode;
+    });
+  };
+
+  // const sendMessage = () => {
+  //   if (!input.trim()) return;
+
+  //   const userMessage = { text: input, sender: "user" };
+  //   setMessages([...messages, userMessage]);
+  //   setInput("");
+  //   setLoading(true);
+
+  //   // Simulated API call
+  //   setTimeout(() => {
+  //     const botResponse = { 
+  //       text: "This is a simulated response. In a real application, this would come from your API.", 
+  //       sender: "assistant" 
+  //     };
+  //     setMessages(prev => [...prev, botResponse]);
+  //     setLoading(false);
+  //   }, 2000);
+  // };
+  const sendMessage = async () => {
     if (!input.trim()) return;
-
+  
     const userMessage = { text: input, sender: "user" };
     setMessages([...messages, userMessage]);
     setInput("");
-    setLoading(true); // Set loading to true when message is sent
-
-    setTimeout(async () => {
-      let botResponse;
-      try {
-        const res = await fetch("/chat-client/api", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ text: userMessage.text }),
-        });
-
-        const { data } = await res.json();
-        botResponse = { text: data, sender: "assistant" };
-      } catch (e) {
-        botResponse = { text: "Unable to retrieve data", sender: "assistant" };
+    setLoading(true);
+  
+    try {
+      const response = await fetch("/chat-client/api", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text: input }),
+      });
+  
+      const data = await response.json();
+  
+      if (response.ok) {
+        const botResponse = {
+          text: data.data, // API response text
+          sender: "assistant",
+        };
+  
+        setMessages((prev) => [...prev, botResponse]);
+      } else {
+        console.error("API error:", data);
       }
-
-      setMessages((prev) => [...prev, botResponse]);
-      setLoading(false); // Reset loading state after receiving response
-    }, 3000);
+    } catch (error) {
+      console.error("Fetch error:", error);
+    } finally {
+      setLoading(false);
+    }
   };
+  
 
   return (
-    <div className="flex flex-col h-screen p-1 bg-gray-100">
-      <h1 className="text-center text-2xl">AI Chatbot</h1>
-      <div className="flex-1 overflow-y-auto p-4 bg-white rounded-xl shadow-md">
-        <Suspense fallback={<div className="text-sm text-gray-500">Generating text...</div>}>
+    <div className={`min-h-screen ${darkMode ? 'dark' : ''} bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 p-4 sm:p-6 md:p-8 transition-colors duration-200`}>
+      <div className="max-w-3xl mx-auto flex flex-col h-[90vh] bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700">
+        {/* Header */}
+        <div className="flex items-center justify-between p-4 border-b border-gray-100 dark:border-gray-700">
+          <div className="flex items-center gap-3">
+            <MessageCircle className="w-5 h-5 text-gray-500 dark:text-gray-400" />
+            <h1 className="text-lg font-medium text-gray-900 dark:text-white">AI Assistant</h1>
+          </div>
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+            aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+          >
+            {darkMode ? (
+              <Sun className="w-5 h-5 text-gray-500 dark:text-gray-400" />
+            ) : (
+              <Moon className="w-5 h-5 text-gray-500" />
+            )}
+          </button>
+        </div>
+
+        {/* Messages */}
+        <div className="flex-1 overflow-y-auto p-4 space-y-4">
           {messages.map((msg, index) => (
-            <div key={index}>
-              {msg.sender === "user" ? (
-                <Image
-                  className="light:invert ml-auto"
-                  src="https://cdn-icons-png.flaticon.com/512/5953/5953714.png"
-                  alt="User"
-                  width={25}
-                  height={25}
-                  priority
-                />
-              ) : (
-                <Image
-                  className="light:invert"
-                  src="https://cdn-icons-png.flaticon.com/512/8649/8649607.png"
-                  alt="Bot"
-                  width={25}
-                  height={25}
-                  priority
-                />
-              )}
+            <div
+              key={index}
+              className={`flex items-start gap-3 message-appear ${
+                msg.sender === "user" ? "flex-row-reverse" : ""
+              }`}
+            >
+              <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center
+                ${msg.sender === "user" ? "bg-gray-100 dark:bg-gray-700" : "bg-gray-100 dark:bg-gray-700"}`}
+              >
+                {msg.sender === "user" ? (
+                  <User className="w-5 h-5 text-gray-600 dark:text-gray-300" />
+                ) : (
+                  <Bot className="w-5 h-5 text-gray-600 dark:text-gray-300" />
+                )}
+              </div>
               <div
-                className={`p-2 my-2 max-w-xs rounded-lg text-white ${
-                  msg.sender === "user" ? "bg-blue-500 ml-auto" : "bg-gray-600 mr-auto"
+                className={`px-4 py-3 rounded-2xl max-w-[80%] ${
+                  msg.sender === "user"
+                    ? "bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white"
+                    : "bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 text-gray-900 dark:text-white"
                 }`}
               >
-                <div dangerouslySetInnerHTML={{ __html: msg.text.replace(/\n/g, "<br/>") }} />
+
+                <p className="text-sm leading-relaxed whitespace-pre-wrap">
+                  {msg.text}
+                </p>
+
               </div>
             </div>
           ))}
 
+          {/* Loading indicator */}
           {loading && (
-            <div className="text-gray-500 italic text-sm mt-2">
-              <Image
-                src="https://cdn-icons-png.flaticon.com/512/891/891378.png"
-                alt="Loading"
-                width={20}
-                height={20}
-                className="inline-block animate-spin"
-              />
-              Generating response...
+            <div className="flex items-start gap-3 message-appear">
+              <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+                <Bot className="w-5 h-5 text-gray-600 dark:text-gray-300" />
+              </div>
+              <div className="px-4 py-3 rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700">
+                <div className="flex gap-1">
+                  <span className="w-2 h-2 bg-gray-300 dark:bg-gray-600 rounded-full typing-indicator"></span>
+                  <span className="w-2 h-2 bg-gray-300 dark:bg-gray-600 rounded-full typing-indicator" style={{ animationDelay: "0.2s" }}></span>
+                  <span className="w-2 h-2 bg-gray-300 dark:bg-gray-600 rounded-full typing-indicator" style={{ animationDelay: "0.4s" }}></span>
+                </div>
+              </div>
             </div>
           )}
-        </Suspense>
-      </div>
+        </div>
 
-      <div className="flex mt-2 p-10">
-        <input
-          type="text"
-          className="flex-1 p-2 border rounded-lg focus:outline-none"
-          placeholder="Type a message..."
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-        />
-        <button onClick={sendMessage} className="ml-2 p-2 bg-blue-500 text-white rounded-lg">
-          Send
-        </button>
+        {/* Input area */}
+        <div className="p-4 border-t border-gray-100 dark:border-gray-700">
+          <div className="flex gap-2 items-center">
+            <input
+              type="text"
+              placeholder="Type your message..."
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && sendMessage()}
+              className="flex-1 px-4 py-3 text-sm bg-gray-50 dark:bg-gray-700 border border-gray-100 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600 transition-all text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400"
+            />
+            <button
+              onClick={sendMessage}
+              disabled={!input.trim()}
+              className="px-4 py-3 bg-gray-900 dark:bg-gray-700 text-white rounded-xl hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600"
+            >
+              <Send className="w-5 h-5" />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
-}
+};
+
+export default ChatInterface;
