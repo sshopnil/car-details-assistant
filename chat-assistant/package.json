@@ -18,7 +18,7 @@
     "langchain": "^0.3.15",
     "lucide-react": "^0.475.0",
     "multer": "^1.4.5-lts.1",
-    "next": "15.1.7",
+    "next": "15.4.8",
     "pinecone": "^0.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
